@@ -1,7 +1,7 @@
 'use strict';
 
-let money = prompt('Ваш бюджет на месяц', 0);
-let time = prompt('Введите вашу дату в формате YYYY-MM-DD');
+let money = prompt('Ваш бюджет на месяц', 0),
+    time = prompt('Введите вашу дату в формате YYYY-MM-DD');
 
 let appData = {
     money: +money,
